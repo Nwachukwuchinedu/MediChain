@@ -38,7 +38,7 @@ export const Testimonials = () => {
                             <div className="flex items-center gap-1 text-amber-400 mb-6">
                                 {[...Array(5)].map((_, idx) => <Star key={idx} size={18} fill="currentColor" />)}
                             </div>
-                            <p className="text-slate-700 leading-relaxed mb-8 relative z-10">"{t.text}"</p>
+                            <p className="text-slate-700 leading-relaxed mb-8 relative z-10">&quot;{t.text}&quot;</p>
                             <div className="flex items-center gap-4">
                                 <img src={t.img} alt={t.name} className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm" />
                                 <div>
