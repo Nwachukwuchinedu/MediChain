@@ -1,16 +1,16 @@
 "use client";
 
 import React from 'react';
-import { Navbar } from '@/components/Navbar';
-import { Hero } from '@/components/Hero';
-import { ImpactStats } from '@/components/ImpactStats';
-import { DoctorNetwork } from '@/components/DoctorNetwork';
-import { BlueSolutions } from '@/components/BlueSolutions';
-import { HowItWorks } from '@/components/HowItWorks';
-import { Testimonials } from '@/components/Testimonials';
-import { FAQ } from '@/components/FAQ';
-import { FinalCTA } from '@/components/FinalCTA';
-import { Footer } from '@/components/Footer';
+import { Navbar } from '@/components/landing/Navbar';
+import { Hero } from '@/components/landing/Hero';
+import { ImpactStats } from '@/components/landing/ImpactStats';
+import { DoctorNetwork } from '@/components/landing/DoctorNetwork';
+import { BlueSolutions } from '@/components/landing/BlueSolutions';
+import { HowItWorks } from '@/components/landing/HowItWorks';
+import { Testimonials } from '@/components/landing/Testimonials';
+import { FAQ } from '@/components/landing/FAQ';
+import { FinalCTA } from '@/components/landing/FinalCTA';
+import { Footer } from '@/components/landing/Footer';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 export default function Home() {
